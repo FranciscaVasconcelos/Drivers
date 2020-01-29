@@ -3,8 +3,9 @@
  -      Suite of functions for tomography        -
  -------------------------------------------------
 
-Mainly written by Morten Kjaergaard (mortenk@mit.edu)
-with a ton of input from EQuS team and LL team.
+Generalized MLE code written by Francisca Vasconcelos (francisc@mit.edu),
+based on 1-2QB code written by Morten Kjaergaard (mortenk@mit.edu)
+with input from EQuS team and LL team.
 '''
 import numpy as np
 from scipy.linalg import lu

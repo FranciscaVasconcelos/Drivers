@@ -63,7 +63,7 @@ class Driver(LabberDriver):
                     self.sequence = new_type(1)
 
         elif (quant.name == 'Custom Python file' and
-              self.getValue('Sequence') == 'Custom'):
+            self.getValue('Sequence') == 'Custom'):
             # for custom python files
             path = self.getValue('Custom Python file')
             (path, modName) = os.path.split(path)
